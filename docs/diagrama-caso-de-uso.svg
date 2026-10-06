@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" font-family="Arial" font-size="14">
+<rect width="1100" height="700" fill="#fff"/>
+<text x="550" y="35" text-anchor="middle" font-size="20" font-weight="bold">Diagrama de Casos de Uso - Sistema de Clínica</text>
+<rect x="330" y="60" width="440" height="620" fill="#f4fafb" stroke="#0f5c6e" stroke-width="2" rx="8"/>
+<text x="550" y="82" text-anchor="middle" font-weight="bold" fill="#0f5c6e">Sistema Clínica</text>
+<line x1="90" y1="170" x2="400" y2="172" stroke="#667" />
+<line x1="90" y1="170" x2="400" y2="234" stroke="#667" />
+<line x1="90" y1="170" x2="400" y2="296" stroke="#667" />
+<line x1="90" y1="170" x2="400" y2="110" stroke="#667" />
+<line x1="90" y1="470" x2="400" y2="172" stroke="#667" />
+<line x1="90" y1="470" x2="400" y2="296" stroke="#667" />
+<line x1="90" y1="470" x2="400" y2="358" stroke="#667" />
+<line x1="90" y1="470" x2="400" y2="606" stroke="#667" />
+<line x1="90" y1="470" x2="400" y2="110" stroke="#667" />
+<line x1="1010" y1="170" x2="700" y2="172" stroke="#667" />
+<line x1="1010" y1="170" x2="700" y2="358" stroke="#667" />
+<line x1="1010" y1="170" x2="700" y2="420" stroke="#667" />
+<line x1="1010" y1="170" x2="700" y2="482" stroke="#667" />
+<line x1="1010" y1="170" x2="700" y2="544" stroke="#667" />
+<line x1="1010" y1="170" x2="700" y2="110" stroke="#667" />
+<line x1="1010" y1="470" x2="700" y2="172" stroke="#667" />
+<line x1="1010" y1="470" x2="700" y2="358" stroke="#667" />
+<line x1="1010" y1="470" x2="700" y2="420" stroke="#667" />
+<line x1="1010" y1="470" x2="700" y2="482" stroke="#667" />
+<line x1="1010" y1="470" x2="700" y2="544" stroke="#667" />
+<line x1="1010" y1="470" x2="700" y2="606" stroke="#667" />
+<line x1="1010" y1="470" x2="700" y2="110" stroke="#667" />
+<ellipse cx="550" cy="110" rx="150" ry="24" fill="#fff" stroke="#0f5c6e" stroke-width="1.5"/><text x="550" y="115" text-anchor="middle">Sair do sistema</text>
+<ellipse cx="550" cy="172" rx="150" ry="24" fill="#fff" stroke="#0f5c6e" stroke-width="1.5"/><text x="550" y="177" text-anchor="middle">Fazer login</text>
+<ellipse cx="550" cy="234" rx="150" ry="24" fill="#fff" stroke="#0f5c6e" stroke-width="1.5"/><text x="550" y="239" text-anchor="middle">Cadastrar-se (novo usuário)</text>
+<ellipse cx="550" cy="296" rx="150" ry="24" fill="#fff" stroke="#0f5c6e" stroke-width="1.5"/><text x="550" y="301" text-anchor="middle">Agendar / ver consultas</text>
+<ellipse cx="550" cy="358" rx="150" ry="24" fill="#fff" stroke="#0f5c6e" stroke-width="1.5"/><text x="550" y="363" text-anchor="middle">Manter pacientes</text>
+<ellipse cx="550" cy="420" rx="150" ry="24" fill="#fff" stroke="#0f5c6e" stroke-width="1.5"/><text x="550" y="425" text-anchor="middle">Manter médicos</text>
+<ellipse cx="550" cy="482" rx="150" ry="24" fill="#fff" stroke="#0f5c6e" stroke-width="1.5"/><text x="550" y="487" text-anchor="middle">Manter funcionários</text>
+<ellipse cx="550" cy="544" rx="150" ry="24" fill="#fff" stroke="#0f5c6e" stroke-width="1.5"/><text x="550" y="549" text-anchor="middle">Manter consultas (CRUD)</text>
+<ellipse cx="550" cy="606" rx="150" ry="24" fill="#fff" stroke="#0f5c6e" stroke-width="1.5"/><text x="550" y="611" text-anchor="middle">Manter prontuários</text>
+<text x="710" y="203" font-size="11" fill="#b33">&#171;extend&#187; sem acesso</text>
+<g stroke="#1d2b36" stroke-width="2" fill="none"><circle cx="70" cy="130" r="14"/><line x1="70" y1="144" x2="70" y2="180"/><line x1="50" y1="158" x2="90" y2="158"/><line x1="70" y1="180" x2="54" y2="210"/><line x1="70" y1="180" x2="86" y2="210"/></g><text x="70" y="232" text-anchor="middle" font-weight="bold">Paciente</text>
+<g stroke="#1d2b36" stroke-width="2" fill="none"><circle cx="70" cy="430" r="14"/><line x1="70" y1="444" x2="70" y2="480"/><line x1="50" y1="458" x2="90" y2="458"/><line x1="70" y1="480" x2="54" y2="510"/><line x1="70" y1="480" x2="86" y2="510"/></g><text x="70" y="532" text-anchor="middle" font-weight="bold">Médico</text>
+<g stroke="#1d2b36" stroke-width="2" fill="none"><circle cx="1030" cy="130" r="14"/><line x1="1030" y1="144" x2="1030" y2="180"/><line x1="1010" y1="158" x2="1050" y2="158"/><line x1="1030" y1="180" x2="1014" y2="210"/><line x1="1030" y1="180" x2="1046" y2="210"/></g><text x="1030" y="232" text-anchor="middle" font-weight="bold">Funcionário</text>
+<g stroke="#1d2b36" stroke-width="2" fill="none"><circle cx="1030" cy="430" r="14"/><line x1="1030" y1="444" x2="1030" y2="480"/><line x1="1010" y1="458" x2="1050" y2="458"/><line x1="1030" y1="480" x2="1014" y2="510"/><line x1="1030" y1="480" x2="1046" y2="510"/></g><text x="1030" y="532" text-anchor="middle" font-weight="bold">Administrador</text>
+<text x="550" y="695" text-anchor="middle" font-size="11" fill="#556">Todos os casos (exceto Cadastrar-se) exigem «include» Fazer login.</text></svg>

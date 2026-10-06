@@ -1,0 +1,4 @@
+<!DOCTYPE html><html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security"><head><meta charset="UTF-8"><title>Clínica</title><link rel="stylesheet" href="/css/style.css"></head><body><main class="box"><h2>Acesso ao sistema</h2>
+<p class="err" th:if="${param.error}">Login ou senha inválidos.</p><p class="ok" th:if="${param.logout}">Você saiu.</p><p class="ok" th:if="${param.cadastrado}">Cadastro realizado! Faça login.</p>
+<form th:action="@{/login}" method="post"><label>Login</label><input name="username" required><label>Senha</label><input type="password" name="password" required><button class="btn">Entrar</button></form>
+<p>Não tem acesso? <a href="/cadastro">Cadastre-se</a></p></main></body></html>

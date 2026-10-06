@@ -1,0 +1,7 @@
+<!DOCTYPE html><html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security"><head><meta charset="UTF-8"><title>Clínica</title><link rel="stylesheet" href="/css/style.css"></head><body><main class="box"><h2>Cadastro de paciente</h2><p class="err" th:text="${erro}"></p>
+<form th:action="@{/cadastro}" th:object="${paciente}" method="post">
+<label>Nome</label><input th:field="*{nome}" required><label>CPF</label><input th:field="*{cpf}" required>
+<label>Telefone</label><input th:field="*{telefone}"><label>E-mail</label><input type="email" th:field="*{email}">
+<label>Data de nascimento</label><input type="date" th:field="*{dataNascimento}">
+<label>Login</label><input name="login" required><label>Senha</label><input type="password" name="senha" required minlength="6">
+<button class="btn">Cadastrar</button></form><p><a href="/login">Voltar ao login</a></p></main></body></html>
